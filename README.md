@@ -65,7 +65,7 @@ Evaluate.ipynb initialises the model, loads the weights and calcuulates PSNR of 
 
 ## Predictions
 
-To reconstruct the entire SST Field from the predicted patches, run Prediction.ipynb
+To reconstruct the entire SST Field from the predicted patches, run [Prediction.ipynb](https://github.com/nikita-0209/downsample-sst/blob/master/Prediction.ipynb). This model assumes that VDSR was trained. Feel free to replace the architecture if needed.
 The model is initialised, the weights are loaded, each patch is predicted and appropriately arranged to form the final complete SST Field.
 
 Remember to change paths to the saved hdf5 files of patches and model weights. 
