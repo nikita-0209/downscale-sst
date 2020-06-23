@@ -39,7 +39,7 @@ Group of High Resolution Sea Surface Temperature (GHRSST) data engulf SST observ
 ### Create Data
 
 Sea Surface Temperature Data is stored in NetCDF Format. Along with recording the sea surface temperature, these data files denote land values by a particular constant. This constant, known as the fix value differs from one data file to another. To maintain uniformity, all NetCDF files were rewritten to assign a single fix value, (in this case 0) to denote the land values. For purposes of training, each of the given SST fields were divided into overlapping patches. 
-This can be done by Create Dataset.ipynb. Remember to change the paths to where your NetCDF Files are stored. 
+This can be done by [Create Dataset.ipynb](https://github.com/nikita-0209/downsample-sst/blob/master/Create_Dataset.ipynb). Remember to change the paths to where your NetCDF Files are stored. 
 As required by the architecture, the images were normalized to range [0,1] by dividing each pixel with the maximum of pixel values in both the data files.
 
 ### Models
@@ -61,7 +61,7 @@ The checkpoints will be saved in ckpts/ directory.
 ## Evaluate
 
 Each model was trained to minimise the mean square error between the predicted and the expected patch. Along with that, a popular metric used for comparing quality of images, Peak Signal Noise Ratio (PSNR) was calculated. The smaller the MSE, the greater is the PSNR and the better is the image quality.
-Evaluate.ipynb initialises the model, loads the weights and calcuulates PSNR of the predicted patches.
+[Evaluate.ipynb](https://github.com/nikita-0209/downsample-sst/blob/master/Evaluate.ipynb) initialises the model, loads the weights and calcuulates PSNR of the predicted patches.
 
 ## Predictions
 
