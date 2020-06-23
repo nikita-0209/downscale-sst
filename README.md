@@ -44,19 +44,19 @@ As required by the architecture, the images were normalized to range [0,1] by di
 
 ### Models
 
-Since Super Resolution Convolutional Neural Network had already been tried and tested on bicubic interpolated SST Fields by Aurelien Ducournau and Ronan Fablet in their paper Deep Learning for Ocean Remote Sensing: An Application of Convolutional Neural Networks for Super-Resolution on Satellite-Derived SST Data, initial experiments were carried out on this architecture. Since the results weren't satisfactory, a deeper architecture, namely Very Deep Super Resolution CNN was experimented with. For both the variants, the activation function used is ReLu. Each model is optimised by adaptive moment estimation. A batch size of 64 was chosen.
+Since Super Resolution Convolutional Neural Network had already been tried and tested on bicubic interpolated SST Fields by Aurelien Ducournau and Ronan Fablet in their paper Deep Learning for Ocean Remote Sensing: An Application of Convolutional Neural Networks for Super-Resolution on Satellite-Derived SST Data, initial experiments were carried out on this architecture. Since the results weren't satisfactory, a deeper architecture, namely Very Deep Super Resolution CNN was experimented with. For both the variants, the activation function used is ReLu. Each model is optimised by adaptive moment estimation. A batch size of 64 was chosen. 
 
 To run the SRCNN Architecture:
 ```
-Give an example
+python srcnn_server.py --file_name_low <path to hdf5 array of low resolution patches>  --file_name_high  <path to hdf5 array of high resolution patches>
 ```
 
 To run the VDSR Architecture:
 ```
-Give an example
+python vdsr_server.py --file_name_low <path to hdf5 array of low resolution patches>  --file_name_high  <path to hdf5 array of high resolution patches>
 ```
 
-The checkpoints will be saved in ckpts/ directory.
+The checkpoints of the best models will be saved in ckpts directory. Currently the number of epochs is 100.
 
 ## Evaluate
 
