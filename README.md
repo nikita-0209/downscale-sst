@@ -73,7 +73,7 @@ Modify the path while writing the created NetCDF File of Predicted SST Fields.
 
 ##  Evaluation Results
 
-In order to gain a better insight into the performance of the model, several fields like Mean of Predicted SST Fields, Domain Averaged Root Mean Square Error (RMSE) and Domain Averaged Bias have been plotted in Plot Evaluation.ipynb. The terms Mean SST and Domain Averaged RMSE are self-explanatory with mean SST referring to the mathematical mean of the predicted SST Fields, and the latter referring to the averaged root mean squared error between considered fields. 
+In order to gain a better insight into the performance of the model, several fields like Mean of Predicted SST Fields, Domain Averaged Root Mean Square Error (RMSE) and Domain Averaged Bias have been plotted in [Plot Evaluation.ipynb](https://github.com/nikita-0209/downsample-sst/blob/master/Plot_Evaluation.ipynb). The terms Mean SST and Domain Averaged RMSE are self-explanatory with mean SST referring to the mathematical mean of the predicted SST Fields, and the latter referring to the averaged root mean squared error between considered fields. 
 The Domain Averaged Bias is defined as the mean of the differences between the considered SST Fields, say the input and the predicted.
 
 ## Detailed Report
