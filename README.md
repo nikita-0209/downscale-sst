@@ -78,7 +78,7 @@ The Domain Averaged Bias is defined as the mean of the differences between the c
 
 ## Detailed Report
 
-A detailed report of this project is available: [here](https://drive.google.com/file/d/16VUp0VY6uCkJzPHxH_-dznzTXZ9-QR8q/view?usp=sharing).
+A detailed report of this project is available: [here](https://drive.google.com/file/d/1ssvq1EZvxojmPIaApwvClPOaoqPUlmu8/view?usp=sharing).
 
 ## Authors
 
