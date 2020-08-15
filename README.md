@@ -1,4 +1,4 @@
-# Downsampling Oceanographic Satellite Data with Convolutional Neural Networks
+# Downscaling Oceanographic Satellite Data with Convolutional Neural Networks
 
 A widely measured variable in the ocean, Sea SurfaceTemperature  (SST),  is  a  strong  indicator  of  pollution, productivity, global climate change and stress to corals and other species.  It is an estimate of the energy in the sea due to the motion of molecules. High resolution satellite sensors are effectively measure Sea Surface Temperature under clear sky conditions.  However under cloudy conditions, high resolution SST Measurements are not available.With  the  help  of  a  deep  learning  architecture,  the available images with low spatial resolution can beenhanced to produce images of high spatial resolution.
 
